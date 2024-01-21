@@ -1,6 +1,6 @@
 # cobol-programming-challenge
 
-Resolving Daniel Messi's programming challenges in Cobol.
+Resolving Daniela Messi's programming challenges in Cobol.
 
 Level 0:
 https://github.com/blindma1den/Programming-Skills-Level0
