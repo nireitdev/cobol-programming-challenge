@@ -44,7 +44,7 @@
        PROCEDURE DIVISION.
        MAIN.
            PERFORM CARGA-PARAMETROS.
-           PERFORM MENU.
+           PERFORM MENU-OPT.
            STOP RUN.
 
       *>   *************************************************************
@@ -67,7 +67,7 @@
       *>   Cada entrada/salida tiene una descripcion y un monto
       *>   La categoria [1] es Ingreso de dinero y las demas Salidas.
       *>   *************************************************************
-       MENU.
+       MENU-OPT.
            PERFORM CLEAR-SCREEN.
 
            MOVE 0 TO AUX-COUNTER.
@@ -110,7 +110,7 @@
                    PERFORM MENU-INFO-CATEGORIA
 
            END-EVALUATE.
-           GO TO MENU.
+           GO TO MENU-OPT.
 
 
 
