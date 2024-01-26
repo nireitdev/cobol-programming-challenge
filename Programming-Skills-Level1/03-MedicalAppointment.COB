@@ -59,6 +59,7 @@
 
        PROCEDURE DIVISION.
        MAIN.
+      *>   Falta implementar un aburrido Login ;) CTRL+C CTRL+V
            PERFORM CARGA-PARAMETROS.
            PERFORM MENU-START THRU MENU-END.
            STOP RUN.
